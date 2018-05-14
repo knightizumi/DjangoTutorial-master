@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}New{% endblock %}
+
+{% block main %}
+    <h1>Post New</h1>
+
+{#    <form action="" method="post">#}
+{#        {% csrf_token %}#}
+{##}
+{#        {{ form.as_p }}#}
+{##}
+{#        <button type="submit">Submit</button>#}
+{#    </form>#}
+
+    {% include "_form.html" %}
+{% endblock %}
